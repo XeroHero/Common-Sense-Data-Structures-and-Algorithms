@@ -3,7 +3,7 @@
 ## Index
 **Total Course Lenght: 15 Weeks**
 
-1. Arrays (1 Week) :white-check-marks:
+1. Arrays (1 Week) (/)
 2. Sorting Algorithms (2 Weeks)
 * Bubble Sort
 * Quick Sort
