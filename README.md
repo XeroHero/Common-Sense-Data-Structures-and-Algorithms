@@ -5,7 +5,21 @@
 
 1. Arrays (1 Week) ✅
 2. Sorting Algorithms (2 Weeks) ❌
-* Bubble Sort ❌
+* Bubble Sort ✅
+        Implementation in Java of a generic Bubble Sort Algorithm for Sorting an Integer Array
+        
+        private static void bubbleSort(int[] arr) {
+        int n = arr.length;
+        for(int i = 0; i < n; i++){
+            for (int j = 0; j < n; j++){
+                if(arr[j] > arr[j+1]){
+                    int tmp = arr[j];
+                    arr[j] = arr[j+1];
+                    arr[j+1] = tmp;
+                }
+            }
+        }
+  
 * Quick Sort ❌
 * Merge Sort ❌
 3. Hash Tables (1.5 Weeks) ❌
